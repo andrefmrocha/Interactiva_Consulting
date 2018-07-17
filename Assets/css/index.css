@@ -44,6 +44,10 @@ hr {
 	list-style: none;
 }
 
+.content_div p {
+	margin-top: 3%;
+}
+
 .div_left {
 	text-align: left;
 }
@@ -52,8 +56,23 @@ hr {
 	text-align: right;
 }
 
+.servicos .row {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.servicos i {
+	font-size: 300%;
+	margin-bottom: 3%;
+}
+
 .swot {
 	text-align: center;
+}
+
+.swot .div:not(.div:first-child) .col {
+	border: 1px solid black;
 }
 
 #title {
