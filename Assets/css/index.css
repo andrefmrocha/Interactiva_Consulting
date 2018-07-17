@@ -32,3 +32,8 @@ hr {
 .hidden {
 	display: none;
 }
+
+body .navbar.navbar-expand-lg.navbar-light{
+	position: fixed;
+	width: 100%;
+}
