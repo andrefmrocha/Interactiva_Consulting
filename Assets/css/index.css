@@ -76,7 +76,7 @@ hr {
 }
 
 #title {
-	margin-top: 5%;
+	margin-top: 8%;
 }
 
 #pontosFortes {
@@ -101,6 +101,14 @@ body .navbar.navbar-expand-xl.navbar-light{
 	width: 100%;
     z-index: 5000;
     border-bottom: 1px solid black;
+}
+
+.descriptionDiv {
+	text-align: justify;
+}
+
+.iconDiv {
+	text-align: center;
 }
 
 .container-fluid > .row  > .col-sm > .fas{
