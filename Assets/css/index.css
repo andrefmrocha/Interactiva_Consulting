@@ -96,7 +96,13 @@ hr {
 	border-width: 50%;
 }
 
-body .navbar.navbar-expand-lg.navbar-light{
+body .navbar.navbar-expand-xl.navbar-light{
 	position: fixed;
 	width: 100%;
+    z-index: 5000;
+    border-bottom: 1px solid black;
+}
+
+.container-fluid > .row  > .col-sm > .fas{
+	font-size: 250px;
 }
