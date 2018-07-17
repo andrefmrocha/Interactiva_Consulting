@@ -71,12 +71,29 @@ hr {
 	text-align: center;
 }
 
-.swot .div:not(.div:first-child) .col {
-	border: 1px solid black;
+.swot .col {
+	padding: 3% 0;
 }
 
 #title {
 	margin-top: 5%;
+}
+
+#pontosFortes {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 100%;
+}
+
+#pontosFracos {
+	border-bottom: 1px solid black;
+	border-width: 50%;
+}
+
+#oportunidades {
+	border-right: 1px solid black;
+	border-width: 50%;
 }
 
 body .navbar.navbar-expand-lg.navbar-light{
