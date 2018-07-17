@@ -33,12 +33,31 @@ hr {
 	display: none;
 }
 
-.content_div_right {
+.content_div {
+	width: 100%;
+	padding: 1% 3%;
+	border: 1px solid black;
+	margin-bottom: 3%;
+}
+
+.content_div ul {	
+	list-style: none;
+}
+
+.div_left {
+	text-align: left;
+}
+
+.div_right {
 	text-align: right;
 }
 
-.content_div_left {
-	text-align: left;
+.swot {
+	text-align: center;
+}
+
+#title {
+	margin-top: 5%;
 }
 
 body .navbar.navbar-expand-lg.navbar-light{
