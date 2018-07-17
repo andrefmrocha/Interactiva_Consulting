@@ -79,6 +79,10 @@ hr {
 	margin-top: 8%;
 }
 
+#title>h1 {
+	border-bottom: 3px solid black;
+}
+
 #pontosFortes {
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
