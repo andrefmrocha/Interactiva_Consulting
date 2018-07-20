@@ -8,3 +8,14 @@ $("a").on("click", function() {
 	    scrollTop: $(ref).offset().top
 	}, 1000);
 });
+
+$(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slideAppear");
+        }
+    });
+  });
