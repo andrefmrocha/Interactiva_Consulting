@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=latin-ext');
 
+body {
+	background: linear-gradient(to bottom, #34ce9a, #0213ccd1);
+}
+
 .hidden {
 	display: none;
 }
@@ -21,6 +25,7 @@
 
 .jumbotron {
 	padding: 4rem 4rem;
+	background-color: white;
 }
 
 .jumbotron h1 {
