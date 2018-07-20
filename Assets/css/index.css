@@ -135,6 +135,11 @@ body {
 	border-width: 50%;
 }
 
+#emailHelp {
+	font-weight: 400;
+	color: rgb(50,50,50);
+}
+
 body .navbar.navbar-expand-xl.navbar-light{
 	position: fixed;
 	width: 100%;
