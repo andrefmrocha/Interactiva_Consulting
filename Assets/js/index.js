@@ -4,6 +4,7 @@ $('.carousel').carousel({
 
 $("a").on("click", function() {
 	let ref = $(this).attr("href");
+	console.log($(ref).offset());
 	$('html, body').animate({
 	    scrollTop: $(ref).offset().top
 	}, 1000);
