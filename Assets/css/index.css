@@ -34,10 +34,6 @@
 	margin-top: 3%;
 }
 
-.div_left {
-	text-align: left;
-}
-
 .div_right {
 	text-align: right;
 }
@@ -48,14 +44,32 @@
 	margin-bottom: 2%;
 }
 
+#servicos .col {
+	margin: auto;
+}
+
 #servicos i {
 	font-size: 300%;
 	margin-bottom: 3%;
 }
 
-#servicos>h3 {
-	font-size: 350%;
+#servicos p {
+	font-size: 100%;
 	margin-bottom: 3%;
+}
+
+#megaIcon {
+	padding: 0;
+}
+
+#megaIcon>i {	
+	font-size: 500%;
+}
+
+#megaIcon>p {
+	font-weight: 700; 
+	font-size: 170%;
+	margin: 0;
 }
 
 #swot {
