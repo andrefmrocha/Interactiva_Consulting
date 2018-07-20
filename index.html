@@ -22,41 +22,52 @@
 		<div class="collapse navbar-collapse" id="myNav">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link">
+					<a class="nav-link" href="#myNav">
 						Inicio <span class="sr-only">(current)</span>
 					</a>
 				</li>
 
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navServicos" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Serviços
-					</a>
-
-					<div class="dropdown-menu" aria-labelledby="navServicos">
-						<a class="dropdown-item" href="#">Contabilidade e fiscalidade</a>
-						<a class="dropdown-item" href="#">Certificações</a>
-						<a class="dropdown-item" href="#">Consultoria na área da gestão</a>
-						<a class="dropdown-item" href="#">Análise de projectos de investimento</a>
-						<a class="dropdown-item" href="#">Apoio na constituição / transformação de sociedades</a>
-						<a class="dropdown-item" href="#">Avaliações de Empresas</a>
-						<a class="dropdown-item" href="#">Recrutamento de quadros</a>
-						<a class="dropdown-item" href="#">Contabilidade e fiscalidade</a>
-						<a class="dropdown-item" href="#">Parcerias</a>
-					</div>
+				<li class="nav-item">
+                    <div class="btn-group">
+                        <button class="btn bg-light btn-outliner">
+                            <a href="#servicos">
+                                Serviços
+                            </a>
+                        </button>
+                        <button data-toggle="dropdown" class="btn dropdown-toggle dropdown-toggle-split bg-light" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navServicos">
+                            <a class="dropdown-item" href="#">Contabilidade e fiscalidade</a>
+                            <a class="dropdown-item" href="#">Certificações</a>
+                            <a class="dropdown-item" href="#">Consultoria na área da gestão</a>
+                            <a class="dropdown-item" href="#">Análise de projectos de investimento</a>
+                            <a class="dropdown-item" href="#">Apoio na constituição / transformação de sociedades</a>
+                            <a class="dropdown-item" href="#">Avaliações de Empresas</a>
+                            <a class="dropdown-item" href="#">Recrutamento de quadros</a>
+                            <a class="dropdown-item" href="#">Contabilidade e fiscalidade</a>
+                            <a class="dropdown-item" href="#">Parcerias</a>
+                        </div>
+                    </div>
 				</li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="#parcerias">
                         Parcerias
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
-                        Perspetivas Futuras
+                    <a class="nav-link" href="#swot">
+                        Análise Swot
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
-                        Análise Swot
+                    <a class="nav-link" href="#contact">
+                        Contacte-nos!
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#map">
+                        Localização
                     </a>
                 </li>
 			</ul>
@@ -121,7 +132,7 @@
 					<p>Consultoria na área da gestão</p>
 				</div>
 				<div class="col">
-					<i class="fas fa-clipboard-check"></i>	
+					<i class="fas fa-clipboard-check"></i>
 					<p>Certificações de Qualidade</p>
 				</div>
 				<div class="col">
@@ -160,7 +171,7 @@
 			<a class="btn btn-primary btn-lg" href="#" role="button">Saber mais</a>
 		</div>
 
-		<div class="jumbotron jumbotron-fluid">
+		<div class="jumbotron jumbotron-fluid" id="parcerias">
 			<h1 class="display-4">Parcerias</h1>
 			<p class="lead">A Empresa estará sempre disponível para efectuar novas parcerias em todas as áreas que nos sejam complementares, quer a montante, quer a jusante.</p>
 			<hr class="my-4">
@@ -168,7 +179,7 @@
 			<a class="btn btn-primary btn-lg" href="#" role="button">Saber mais</a>
 		</div>
 
-		<div class="jumbotron div_right">
+		<div class="jumbotron div_right" id="swot">
 			<h1 class="display-4">Porquê nós? (MUDAR)</h1>
 			<p class="lead">Incluimos a analise SWOT aqui implicitamente! (MUDAR)</p>
 			<hr class="my-4">
@@ -176,7 +187,7 @@
 			<a class="btn btn-primary btn-lg" href="#" role="button">Saber mais</a>
 		</div>
 
-		<div class="jumbotron">
+		<div class="jumbotron" id="contact">
 			<h1 class="display-4">Contacte-nos!</h1>
 			<form>
 
@@ -198,7 +209,7 @@
 			</form>
 		</div>
 
-		<div class="jumbotron-fluid">
+		<div class="jumbotron-fluid" id="map">
 			<h1 class="display-4">Localização</h1>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.473119128168!2d-8.638746626318094!3d41.255033494753306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14970c53bf07ff8!2sInteractiva+Ii+Consulting+S+A!5e0!3m2!1spt-PT!2spt!4v1532010434512" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
