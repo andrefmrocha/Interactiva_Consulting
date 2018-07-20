@@ -16,7 +16,7 @@ body {
 #myCarousel img {
 	background-repeat: no-repeat;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 #myCarousel {
@@ -70,6 +70,14 @@ body {
 	font-size: 4.5rem;
 }
 
+#servicos a {
+	color: black;
+}
+
+#servicos a:hover {
+	text-decoration: none;
+}
+
 #servicos i {
 	font-size: 300%;
 	margin-bottom: 3%;
@@ -84,11 +92,11 @@ body {
 	padding: 0;
 }
 
-#megaIcon>i {	
+#megaIcon>a>i {	
 	font-size: 500%;
 }
 
-#megaIcon>p {
+#megaIcon>a>p {
 	font-weight: 700; 
 	font-size: 170%;
 	margin: 0;
