@@ -60,6 +60,10 @@ body {
 	text-align: right !important;
 }
 
+.highlightText {
+	font-weight: 600;
+}
+
 #servicos>i {
 	font-size: 200%;
 }
