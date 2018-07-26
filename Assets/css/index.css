@@ -60,39 +60,53 @@ body {
 	text-align: right !important;
 }
 
-#servicos .row {
+#servicos>i {
+	font-size: 200%;
+}
+
+#servicos .col i{
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 300%;
+}
+
+#servicosDiagram .row {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 2%;
 }
 
-#servicos .col {
+#servicosDiagram .col {
 	margin: auto;
 }
 
-#servicos h1 {
+#servicosDiagram h1 {
 	font-size: 4.5rem;
 }
 
-#servicos a {
+#servicosDiagram a {
 	color: black;
 }
 
-#servicos a:hover {
+#servicosDiagram a.btn {
+	color: white;
+}
+
+#servicosDiagram a:hover {
 	text-decoration: none;
 }
 
-#servicos i {
+#servicosDiagram i {
 	font-size: 300%;
 	margin-bottom: 3%;
 }
 
-#servicos h1 i {
-	font-size: 100%;
+#servicosDiagram h1 i {
+	font-size: 90%;
 	margin-bottom: 3%;
 }
 
-#servicos p {
+#servicosDiagram p {
 	font-size: 100%;
 	margin-bottom: 3%;
 }
