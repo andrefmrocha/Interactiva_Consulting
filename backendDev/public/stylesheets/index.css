@@ -1,36 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=latin-ext');
-/*body {
-	background: url(http://dreamstop.com/wp-content/uploads/2013/07/office-dream-meaning.jpeg);
-	background-size: cover;
-	background-position:center;
-	font-family: Lato;
-	color: white;
-}
 
-html {
-	height:100%;
+body {
+	background: linear-gradient(to right, #34ce9a, #0213ccd1);
 }
-
-h1 {
-	font-weight: 700;
-	font-size: 5em;
-}
-
-hr {
-	width: 400px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-#content {
-	text-align: center;
-	padding-top:25%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
-}*/
 
 .hidden {
 	display: none;
+}
+
+a.navbar-brand{
+	width: 20%;
+}
+
+.navbar-brand > img{
+	height: 15%;
+	width: 15%;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+button.navbar-toggler{
+	border: 1px solid white !important;
+}
+nav {
+	box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,0.20);
+	background-color:#26292c;
+}
+
+.carousel-item>.carousel-caption {
+	background-color: rgb(50,50,50);
+	color: white;
+}
+
+#myCarousel img {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+#myCarousel {
+	margin-bottom: 3%;
+}
+
+.jumbotron {
+	padding: 6rem 4rem;
+	background-color: rgba(11, 9, 3, 0.4);
+	color: rgba(237, 255, 199, 0.76);
+}
+
+.jumbotron h1 {
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.fa-plus {
+	font-size: 0.8rem;
 }
 
 .content_div {
@@ -48,38 +74,97 @@ hr {
 	margin-top: 3%;
 }
 
-.div_left {
-	text-align: left;
+.div_center {
+	text-align: center;
 }
 
-.div_right {
-	text-align: right;
+.highlightText {
+	font-weight: 600;
 }
 
-.servicos .row {
+#servicos>i {
+	font-size: 200%;
+}
+
+#servicos .col i{
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	font-size: 300%;
+}
+
+#servicos-parcerias .row {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 2%;
 }
 
-.servicos i {
+#servicos-parcerias .col {
+	margin: auto;
+}
+
+#servicos-parcerias h1 {
+	font-size: 4.5rem;
+}
+
+#servicos-parcerias a {
+	color: rgba(237, 255, 199, 0.76);
+}
+
+#servicos-parcerias a.btn {
+	color: white;
+}
+
+#servicos-parcerias a:hover {
+	text-decoration: none;
+}
+
+#servicos-parcerias i {
 	font-size: 300%;
 	margin-bottom: 3%;
 }
 
-.swot {
+#servicos-parcerias h1 i {
+	font-size: 90%;
+	margin-bottom: 3%;
+}
+
+#servicos-parcerias p {
+	font-size: 100%;
+	margin-bottom: 3%;
+}
+
+#megaIcon {
+	padding: 0;
+}
+
+#megaIcon>a>i {	
+	font-size: 500%;
+}
+
+#megaIcon>a>p {
+	font-weight: 700; 
+	font-size: 170%;
+	margin: 0;
+}
+
+#swot {
 	text-align: center;
 }
 
-.swot .col {
+#swot>i {
+	font-size: 200%;
+}
+
+#swot .col {
 	padding: 3% 0;
 }
 
-#title {
+.title {
 	margin-top: 8%;
 }
 
-#title>h1 {
+.title>h1 {
 	border-bottom: 3px solid black;
 }
 
@@ -100,6 +185,11 @@ hr {
 	border-width: 50%;
 }
 
+#disclaimer {
+	font-weight: 400;
+	color: rgb(50,50,50);
+}
+
 body .navbar.navbar-expand-xl.navbar-light{
 	position: fixed;
 	width: 100%;
@@ -109,13 +199,130 @@ body .navbar.navbar-expand-xl.navbar-light{
 
 .descriptionDiv {
 	text-align: justify;
+	margin: 0 3rem;
 }
 
 .iconDiv {
 	text-align: center;
+	margin-bottom: 3rem;
 }
 
-.container-fluid > .row  > .col-sm > .fas{
-	font-size: 250px;
+#accounting i {
+	font-size: 2000%;
+}
 
+.container-fluid > .row  > .col-sm  .fas{
+	font-size: 1000%;
+}
+
+.jumbotron-fluid > iframe{
+	width: 100%;
+	height: 450px;
+	border: 0;
+}
+
+.nav-item > .btn-group > .btn > a{
+	color: white;
+}
+
+.nav-item > .btn-group > .btn{
+	background-color: #26292c!important;
+}
+
+.dropdown-toggle-split{
+	color: white;
+}
+
+.dropdown-menu{
+	background-color: #26292c;
+}
+
+.dropdown-menu > a{
+	color: white;
+}
+
+.nav-item > .btn-group:hover{
+	text-decoration: none;
+	color: #26292c!important;
+}
+
+.nav-item > .btn-group > .btn:hover{
+    color: #26292c!important;
+}
+.nav-item > .btn-group > .btn >a:hover{
+    text-decoration: none;
+}
+
+.nav-item > a.nav-link:hover{
+    color: #26292c!important;
+    background-color: white;
+	border-radius: 15px;
+}
+
+.nav-item > .btn-group > .dropdown-toggle:hover{
+    border-radius: 0 15px 15px 0;
+}
+
+.nav-item > .btn-group > button:hover{
+	background-color: white!important;
+}
+
+.btn{
+	transition: none!important;
+}
+
+.nav-item > .btn-group > button:hover > a{
+    color: #26292c;
+}
+
+.nav-item > a.nav-link:hover{
+    border-radius: 15px;
+}
+
+.nav-item > .btn-group > button:hover{
+    border-radius: 15px;
+	transition-delay: 0ms;
+}
+
+.nav-item > a.nav-link, a.navbar-brand{
+	color: white!important;
+}
+.nav-item > .btn-group > .btn.btn-outliner{
+	border-right: 1px solid gray;
+}
+
+.nav-item > .btn-group > .btn.bg-light.dropdown-toggle{
+	border-left: 1px solid gray;
+}
+
+.slideanim {
+	visibility:hidden;
+}
+
+.slideAppear {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+0% {
+  opacity: 0;
+  transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+}
+@-webkit-keyframes slide {
+0% {
+  opacity: 0;
+  -webkit-transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+}
 }
