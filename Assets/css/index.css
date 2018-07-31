@@ -224,7 +224,7 @@ body .navbar.navbar-expand-xl.navbar-light{
 }
 
 .nav-item > .btn-group > .btn{
-	background-color: #111315!important;
+	background-color: #26292c!important;
 }
 
 .dropdown-toggle-split{
@@ -232,21 +232,48 @@ body .navbar.navbar-expand-xl.navbar-light{
 }
 
 .dropdown-menu{
-	background-color: #111315;
+	background-color: #26292c;
 }
 
 .dropdown-menu > a{
 	color: white;
 }
 
-.nav-item > .btn-group > button > a:hover{
+.nav-item > .btn-group:hover{
 	text-decoration: none;
-	color: white;
-	background-color: #111315;
+	color: #26292c!important;
+}
+
+.nav-item > .btn-group > .btn:hover{
+    color: #26292c!important;
+}
+.nav-item > .btn-group > .btn >a:hover{
+    text-decoration: none;
+}
+
+.nav-item > a.nav-link:hover{
+    color: #26292c!important;
+    background-color: white;
+}
+
+.nav-item > .btn-group > .dropdown-toggle:hover{
+    border-radius: 0 15px 15px 0;
 }
 
 .nav-item > .btn-group > button:hover{
-	background: none!important;
+	background-color: white!important;
+}
+
+.nav-item > .btn-group > button:hover > a{
+    color: #26292c;
+}
+
+.nav-item > a.nav-link:hover{
+    border-radius: 15px;
+}
+
+.nav-item > .btn-group > button:hover{
+    border-radius: 15px;
 }
 
 .nav-item > a.nav-link, a.navbar-brand{
