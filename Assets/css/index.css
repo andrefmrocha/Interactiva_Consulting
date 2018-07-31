@@ -199,17 +199,19 @@ body .navbar.navbar-expand-xl.navbar-light{
 
 .descriptionDiv {
 	text-align: justify;
+	margin: 0 3rem;
 }
 
 .iconDiv {
 	text-align: center;
+	margin-bottom: 3rem;
 }
 
 #accounting i {
 	font-size: 2000%;
 }
 
-.container-fluid > .row  > .col-sm > .fas{
+.container-fluid > .row  > .col-sm  .fas{
 	font-size: 1000%;
 }
 
