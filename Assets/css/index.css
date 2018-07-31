@@ -254,6 +254,7 @@ body .navbar.navbar-expand-xl.navbar-light{
 .nav-item > a.nav-link:hover{
     color: #26292c!important;
     background-color: white;
+	border-radius: 15px;
 }
 
 .nav-item > .btn-group > .dropdown-toggle:hover{
@@ -262,6 +263,10 @@ body .navbar.navbar-expand-xl.navbar-light{
 
 .nav-item > .btn-group > button:hover{
 	background-color: white!important;
+}
+
+.btn{
+	transition: none!important;
 }
 
 .nav-item > .btn-group > button:hover > a{
@@ -274,6 +279,7 @@ body .navbar.navbar-expand-xl.navbar-light{
 
 .nav-item > .btn-group > button:hover{
     border-radius: 15px;
+	transition-delay: 0ms;
 }
 
 .nav-item > a.nav-link, a.navbar-brand{
