@@ -8,6 +8,10 @@ body {
 	display: none;
 }
 
+nav {
+	box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,0.20);
+}
+
 .carousel-item>.carousel-caption {
 	background-color: rgb(50,50,50);
 	color: white;
@@ -128,6 +132,10 @@ body {
 
 #swot {
 	text-align: center;
+}
+
+#swot>i {
+	font-size: 200%;
 }
 
 #swot .col {
