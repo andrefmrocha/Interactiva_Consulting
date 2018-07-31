@@ -56,10 +56,6 @@ body {
 	text-align: center;
 }
 
-.div_right {
-	text-align: right !important;
-}
-
 .highlightText {
 	font-weight: 600;
 }
@@ -75,43 +71,43 @@ body {
 	font-size: 300%;
 }
 
-#servicosDiagram .row {
+#servicos-parcerias .row {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 2%;
 }
 
-#servicosDiagram .col {
+#servicos-parcerias .col {
 	margin: auto;
 }
 
-#servicosDiagram h1 {
+#servicos-parcerias h1 {
 	font-size: 4.5rem;
 }
 
-#servicosDiagram a {
+#servicos-parcerias a {
 	color: black;
 }
 
-#servicosDiagram a.btn {
+#servicos-parcerias a.btn {
 	color: white;
 }
 
-#servicosDiagram a:hover {
+#servicos-parcerias a:hover {
 	text-decoration: none;
 }
 
-#servicosDiagram i {
+#servicos-parcerias i {
 	font-size: 300%;
 	margin-bottom: 3%;
 }
 
-#servicosDiagram h1 i {
+#servicos-parcerias h1 i {
 	font-size: 90%;
 	margin-bottom: 3%;
 }
 
-#servicosDiagram p {
+#servicos-parcerias p {
 	font-size: 100%;
 	margin-bottom: 3%;
 }

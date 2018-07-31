@@ -10,8 +10,7 @@ $(function () {
     }
     else
     {
-        $("#servicosDiagram").addClass("slideAppear");
-        $("#servicosDiagram .row").addClass("slideAppear");
+        $("#accounting").addClass("slideAppear");
     }
 
     $("a").on("click", function() {
