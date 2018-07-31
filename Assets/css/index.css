@@ -8,8 +8,19 @@ body {
 	display: none;
 }
 
+a.navbar-brand{
+	width: 20%;
+}
+
+.navbar-brand > img{
+	height: 15%;
+	width: 15%;
+}
+
 nav {
 	box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,0.20);
+	background-color:#111315;
+	height: 8%;
 }
 
 .carousel-item>.carousel-caption {
@@ -29,7 +40,8 @@ nav {
 
 .jumbotron {
 	padding: 6rem 4rem;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(11, 9, 3, 0.4);
+	color: rgba(237, 255, 199, 0.76);
 }
 
 .jumbotron h1 {
@@ -90,7 +102,7 @@ nav {
 }
 
 #servicos-parcerias a {
-	color: black;
+	color: rgba(237, 255, 199, 0.76);
 }
 
 #servicos-parcerias a.btn {
@@ -199,19 +211,38 @@ body .navbar.navbar-expand-xl.navbar-light{
 }
 
 .nav-item > .btn-group > .btn > a{
-	color: rgba(0,0,0,.5);
+	color: white;
+}
+
+.nav-item > .btn-group > .btn{
+	background-color: #111315!important;
+}
+
+.dropdown-toggle-split{
+	color: white;
+}
+
+.dropdown-menu{
+	background-color: #111315;
+}
+
+.dropdown-menu > a{
+	color: white;
 }
 
 .nav-item > .btn-group > button > a:hover{
 	text-decoration: none;
-	color: rgba(0, 0, 0, 0.7);
+	color: white;
+	background-color: #111315;
 }
 
 .nav-item > .btn-group > button:hover{
 	background: none!important;
 }
 
-
+.nav-item > a.nav-link, a.navbar-brand{
+	color: white!important;
+}
 .nav-item > .btn-group > .btn.btn-outliner{
 	border-right: 1px solid gray;
 }
