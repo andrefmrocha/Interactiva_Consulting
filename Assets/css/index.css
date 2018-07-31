@@ -205,9 +205,12 @@ body .navbar.navbar-expand-xl.navbar-light{
 	text-align: center;
 }
 
-.container-fluid > .row  > .col-sm > .fas{
+#accounting i {
 	font-size: 2000%;
+}
 
+.container-fluid > .row  > .col-sm > .fas{
+	font-size: 1000%;
 }
 
 .jumbotron-fluid > iframe{
