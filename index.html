@@ -175,17 +175,17 @@
 					<a href="services.html#group3">
 						<i class="fas fa-clipboard-list"></i>
 						<p>Avaliações de Empresas</p>
-					</a>	
+					</a>
 				</div>
 				<div class="col">
 					<a href="services.html#group3">
 						<i class="fas fa-address-card"></i>
 						<p>Recrutamento de quadros</p>
-					</a>	
+					</a>
 				</div>
 			</div>
 			<div class="row slideanim">
-				
+
 				<div class="col">
 					<a href="services.html#group4">
 						<i class="fas fa-globe"></i>
@@ -196,14 +196,14 @@
 					<a href="services.html#group4">
 						<i class="fas fa-piggy-bank"></i>
 						<p>Corporate Financing</p>
-					</a>	
+					</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="jumbotron slideanim" id="swot">
 			<h1 class="display-4"> Porquê nós? (MUDAR)</h1>
-			<i class="fas fa-question-circle"></i> 
+			<i class="fas fa-question-circle"></i>
 			<p class="lead">Incluimos a analise SWOT aqui implicitamente! (MUDAR)</p>
 			<hr class="my-4">
 			<p>Very import text ... (MUDAR)</p>
@@ -212,27 +212,52 @@
 		<div class="jumbotron slideanim" id="contact">
 			<h1 class="display-4">Contacte-nos! <i class="fas fa-envelope"></i></h1>
 			<small id="emailHelp">Nenhuma das suas informações pessoais será partilhada com qualquer entidade</small>
+			<?php
+			$name = $_POST['name'];
+			$from = $_POST['email'];
+			$message = $_POST['message'];
+			$subject = "Received mail From: '$name'";
+			$to="andrefmrocha@live.com.pt";
+			$headers = "MIME VERSION: 1.0" . "\r\n";
+			$headers .="Content-type:text/html;charset=UTF-8" . "\r\n";
+			$headers = "From : '$from' \r\n";
+			?>
+
 			<form>
 
 				<div class="form-group">
 					<label for="emailInput">Endereço de e-mail</label>
-					<input class="form-control" type="email" id="emailInput" placeholder="Indique o seu endereço de e-mail"/>
+					<input class="form-control" type="email" name="email" id="emailInput" placeholder="Indique o seu endereço de e-mail"/>
 				</div>
 
 				<div class="form-group">
 					<label for="nameInput">Nome</label>
-					<input class="form-control" id="nameInput" placeholder="Indique o seu nome aqui"/>
+					<input class="form-control" id="nameInput" name="name" placeholder="Indique o seu nome aqui"/>
 				</div>
 
 				<div class="form-group">
 					<label for="phoneInput">Contacto</label>
-					<input class="form-control" id="phoneInput" placeholder="Indique o seu número de telemóvel aqui"/>
+					<input class="form-control" id="phoneInput" name = "phone" placeholder="Indique o seu número de telemóvel aqui"/>
 				</div>
 
 				<div class="form-group">
 					<label for="messageText">Mensagem</label>
-					<textarea class="form-control" placeholder="Mensagem..." id="messageText" rows="10"></textarea>
+					<textarea class="form-control" name="message" placeholder="Mensagem..." id="messageText" rows="10"></textarea>
 				</div>
+				<button type="submit" name="submit" class="btn btn-success">Submeter</button>
+				<?php
+				if (isset ($_POST['submit']))
+					{
+						if (mail($to,$subject,$message,$headers))
+						{
+							echo "Sucesso!";
+						}
+						{
+							echo "Mail não enviado...";
+						}
+
+					}
+				?>
 			</form>
 		</div>
 
